@@ -6,7 +6,7 @@ is a homebrew app for music making, this is for using midi with it.
 
 Free demo can be found in the universal updater.
 
-[Patreon link](Click here for the https://www.patreon.com/NoiseCommander3DS)
+[Patreon link](https://www.patreon.com/NoiseCommander3DS)
 
 ## Downloadable binaries
 There should be a linux binary under releases.
