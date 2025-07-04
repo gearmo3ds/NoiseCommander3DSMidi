@@ -27,6 +27,6 @@ ln -s <path-to-JUCE> ./JUCE
 
 ```
 mkdir build && cd build
-cmake ..
+cmake .. -DCMAKE_BUILD_TYPE=Release
 make -j12
 ```
