@@ -31,6 +31,11 @@ add_subdirectory(JUCE)                    # If you've put JUCE in a subdirectory
 # juce_set_vst2_sdk_path(...)
 # juce_set_aax_sdk_path(...)
 
+# Default to Release build if not specified
+if(NOT CMAKE_BUILD_TYPE)
+  set(CMAKE_BUILD_TYPE Release CACHE STRING "Choose the type of build." FORCE)
+endif()
+
 # `juce_add_plugin` adds a static library target with the name passed as the first argument
 # (NoiseCommander3DSMidi here). This target is a normal CMake target, but has a lot of extra properties set
 # up by default. As well as this shared code static library, this function adds targets for each of
