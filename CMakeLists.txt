@@ -42,7 +42,7 @@ juce_add_plugin(NoiseCommander3DSMidi
     # ICON_BIG ...                              # ICON_* arguments specify a path to an image file to use as an icon for the Standalone
     # ICON_SMALL ...
     COMPANY_NAME "NoiseCommander3DS"                          # Specify the name of the plugin's author
-    IS_SYNTH FALSE                       # Is this a synth or an effect?
+    IS_SYNTH TRUE                       # Is this a synth or an effect?
     NEEDS_MIDI_INPUT TRUE               # Does the plugin need midi input?
     NEEDS_MIDI_OUTPUT TRUE              # Does the plugin need midi output?
     IS_MIDI_EFFECT TRUE                 # Is this plugin a MIDI effect?
